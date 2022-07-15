@@ -12,7 +12,7 @@ describe("Header Testleri", () => {
         title = screen.getByText(/Emoji Search/i);
     })
 
-    test("Başlık dökümanda bulunmalı", () => {
+    test("document is should have a title", () => {
         expect(title).toHaveTextContent("Emoji Search");
     })
 })
